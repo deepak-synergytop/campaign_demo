@@ -20,6 +20,7 @@ const routes: VexRoutes = [
     path: 'coming-soon',
     loadChildren: () => import('./pages/pages/coming-soon/coming-soon.module').then(m => m.ComingSoonModule),
   },
+
   {
     path: '',
     component: CustomLayoutComponent,
@@ -109,6 +110,10 @@ const routes: VexRoutes = [
           {
             path: 'error-500',
             loadChildren: () => import('./pages/pages/errors/error-500/error-500.module').then(m => m.Error500Module)
+          },
+          {
+            path: 'profile',
+            loadChildren: () => import('./pages/pages/profile/profile.module').then(m => m.ProfileModule),
           }
         ]
       },
