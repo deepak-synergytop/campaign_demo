@@ -1,7 +1,7 @@
 .item {
   align-items: center;
   box-sizing: border-box;
-  color: var(--sidenav-item-color);
+  color: #ccc;
   cursor: pointer;
   display: flex;
   flex-direction: row;
@@ -19,15 +19,15 @@
     border-left-color: var(--sidenav-item-border-color-active);
 
     .item-icon {
-      color: var(--sidenav-item-icon-color-active);
+      color: #060131;
     }
 
     .item-label {
-      color: var(--sidenav-item-color-active);
+      color: #060131;
     }
 
     .item-dropdown-icon {
-      color: var(--sidenav-item-color-active);
+      color: #060131;
     }
   }
 

@@ -20,6 +20,13 @@ import { MegaMenuComponent } from '../../components/mega-menu/mega-menu.componen
 import icSearch from '@iconify/icons-ic/twotone-search';
 import icEmail from '@iconify/icons-ic/twotone-email';
 import icNotifications from '@iconify/icons-ic/twotone-notifications';
+import icSettings from '@iconify/icons-ic/twotone-settings';
+import icLayers from '@iconify/icons-ic/twotone-layers';
+import icContactSupport from '@iconify/icons-ic/twotone-contact-support';
+
+import icCall from '@iconify/icons-ic/twotone-call';
+import icAccountBalanceWallet from '@iconify/icons-ic/twotone-account-balance-wallet';
+import icPowerOff from '@iconify/icons-ic/twotone-power-off';
 
 
 @Component({
@@ -57,6 +64,12 @@ export class ToolbarComponent implements OnInit {
   icArrowDropDown = icArrowDropDown;
   icEmail = icEmail;
   icNotifications = icNotifications;
+  icSettings = icSettings;
+  icLayers = icLayers;
+  icContactSupport = icContactSupport;
+  icCall = icCall;
+  icAccountBalanceWallet = icAccountBalanceWallet;
+  icPowerOff = icPowerOff;
 
 
   constructor(private layoutService: LayoutService,

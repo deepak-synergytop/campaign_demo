@@ -12,8 +12,11 @@
   height: var(--toolbar-height);
 }
 
-.mat-icon {
-  color: var(--toolbar-icon-color);
+.heder_mian .mat-icon {
+  color: #000;
+}
+.heder_mian .mat-icon:hover {
+  color: #fff;
 }
 
 a {
@@ -29,6 +32,9 @@ a {
 .header_left {
     margin-right: auto;
     display: inline-block;
+}
+.header_left button mat-icon:hover {
+  color: #000;
 }
 
 .header_right {
@@ -99,8 +105,11 @@ ul.favsubmenu {
 }
 .header_right button:hover svg {color: #fff;}
 .header_right button:hover {
-    background: red;
-    border-color: red;
+  background-image: -webkit-linear-gradient(to left bottom, #CD229C, #F36A4E);
+  background-image: -moz-linear-gradient(to left bottom, #CD229C, #F36A4E);
+  background-image: -ms-linear-gradient(to left bottom, #CD229C, #F36A4E);
+  background-image: -o-linear-gradient(to left bottom, #CD229C, #F36A4E);
+  background-image: linear-gradient(to left bottom, #CD229C, #F36A4E);
 }
 .header_left button {
     width: 30px;
@@ -119,12 +128,14 @@ ul.favsubmenu li a {
     font-size: 13px;
     display: flex;
     align-items: center;
-    padding: 6px;
+    padding: 10px 15px;
 }
 ul.favsubmenu li a mat-icon {
     display: inline-block;
     font-size: 20px;
     height: auto;
+    margin-right: 10px;
+    color: #fff;
 }
 ul.favsubmenu li a svg {
     color: #fff;

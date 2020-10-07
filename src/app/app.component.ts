@@ -36,6 +36,13 @@ import icChromeReaderMode from '@iconify/icons-ic/twotone-chrome-reader-mode';
 import { ConfigName } from '../@vex/interfaces/config-name.model';
 import icMail from '@iconify/icons-ic/twotone-mail';
 
+import icHome from '@iconify/icons-ic/twotone-home';
+import icGridOff from '@iconify/icons-ic/twotone-grid-off';
+import icVerifiedUser from '@iconify/icons-ic/twotone-verified-user';
+
+import icLocalShipping from '@iconify/icons-ic/local-shipping';
+import icHistory from '@iconify/icons-ic/history';
+
 @Component({
   selector: 'vex-root',
   templateUrl: './app.component.html',
@@ -104,12 +111,48 @@ export class AppComponent {
     this.navigationService.items = [
       {
         type: 'link',
-        label: 'Dashboard',
+        label: 'Home',
         route: '/',
-        icon: icLayers,
+        icon: icHome,
         routerLinkActiveOptions: { exact: true }
       },
       {
+        type: 'link',
+        label: 'Campaign',
+        route: '/',
+        icon: icGridOff,
+      },
+      {
+        type: 'link',
+        label: 'Discover',
+        route: '/',
+        icon: icVerifiedUser,
+      },
+      {
+        type: 'link',
+        label: 'Chat',
+        route: '/',
+        icon: icChat,
+      },
+      {
+        type: 'link',
+        label: 'Shipment',
+        route: '/',
+        icon: icLocalShipping,
+      },
+      {
+        type: 'link',
+        label: 'Calendar',
+        route: '/',
+        icon: icDateRange,
+      },
+      {
+        type: 'link',
+        label: 'History',
+        route: '/',
+        icon: icHistory,
+      },
+      /**{
         type: 'subheading',
         label: 'Apps',
         children: [
@@ -620,7 +663,7 @@ export class AppComponent {
         type: 'subheading',
         label: 'Customize',
         children: []
-      },
+      },**/
       {
         type: 'link',
         label: 'Configuration',
