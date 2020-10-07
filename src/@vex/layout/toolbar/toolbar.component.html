@@ -8,11 +8,11 @@
      class="ltr:mr-4 rtl:ml-4 block"
      fxLayout="row"
      fxLayoutAlign="start center">
-    <img class="w-8 select-none" src="assets/img/demo/logo.svg">
-    <h1 [fxHide]="mobileQuery" class="title ltr:pl-4 rtl:pr-4 m-0 select-none">VEX</h1>
+    <img class="w-8 select-none" src="assets/img/demo/logo.png">
+    <h1 [fxHide]="mobileQuery" class="title ltr:pl-4 rtl:pr-4 m-0 select-none">CAMPAIGN</h1>
   </a>
 
-  <button *ngIf="isHorizontalLayout$ | async"
+  <!-- <button *ngIf="isHorizontalLayout$ | async"
           [fxHide]="mobileQuery"
           [matMenuTriggerFor]="addNewMenu"
           color="primary"
@@ -80,46 +80,79 @@
     <vex-navigation-item *ngFor="let item of navigationItems" [item]="item"></vex-navigation-item>
   </div>
 
-  <span fxFlex></span>
+  <span fxFlex></span> -->
 
-  <div class="-mx-1 flex items-center">
+  <div class="-mx-1 flex items-center heder_mian">
+    <div class="header_left">
     <div class="px-1">
       <button (click)="openSearch()" mat-icon-button type="button">
         <mat-icon [icIcon]="icSearch"></mat-icon>
       </button>
     </div>
+  </div>
 
-    <div class="px-1">
-      <vex-toolbar-notifications></vex-toolbar-notifications>
+    <div class="header_right">
+     
+
+    <div class="px-1 headeruser">
+      <img src="assets/img/demo/progilrimg.png">
+      <span>Hyebin Seong</span>
     </div>
 
-    <div class="px-1">
+      <div class="px-1 headeremail">
+      <button (click)="openQuickpanel()" mat-icon-button type="button">
+        <mat-icon [icIcon]="icEmail"></mat-icon>
+      </button>
+    </div>
+
+    <div class="px-1 headernotification">
+      <button (click)="openQuickpanel()" mat-icon-button type="button">
+        <mat-icon [icIcon]="icNotifications"></mat-icon>
+      </button>
+    </div>
+
+    <div class="px-1 headerfavourite">
+      <button (click)="openQuickpanel()" mat-icon-button type="button">
+        <mat-icon [icIcon]="icNotifications"></mat-icon>
+      </button>
+      <ul class="favsubmenu">
+        <li><a href="#"><mat-icon [icIcon]="icNotifications"></mat-icon> <span>Setting</span></a></li>
+        <li><a href="#"><mat-icon [icIcon]="icNotifications"></mat-icon> <span>Banking</span></a></li>
+        <li><a href="#"><mat-icon [icIcon]="icNotifications"></mat-icon> <span>Common Q&A</span></a></li>
+        <li><a href="#"><mat-icon [icIcon]="icNotifications"></mat-icon> <span>Contact Us</span></a></li>
+        <li><a href="#"><mat-icon [icIcon]="icNotifications"></mat-icon> <span>Terms and Conditions /Disclosures</span></a></li>
+        <li><a href="#"><mat-icon [icIcon]="icNotifications"></mat-icon> <span>Logout</span></a></li>
+      </ul>
+    </div>
+  </div>
+    
+
+
+   <!--  <div class="px-1">
       <button (click)="openQuickpanel()" mat-icon-button type="button">
         <mat-icon [icIcon]="icBookmarks"></mat-icon>
       </button>
-    </div>
+    </div> -->
 
-    <div class="px-1">
+   <!--  <div class="px-1">
       <button [matMenuTriggerFor]="languageMenu" mat-icon-button type="button">
         <mat-icon [icIcon]="emojioneUS"></mat-icon>
       </button>
-    </div>
+    </div> -->
 
-    <div class="px-1">
-      <vex-toolbar-user></vex-toolbar-user>
-    </div>
 
-    <mat-menu #languageMenu="matMenu" overlapTrigger="false" xPosition="before" yPosition="below">
+
+   <!--  <mat-menu #languageMenu="matMenu" overlapTrigger="false" xPosition="before" yPosition="below">
       <button mat-menu-item>
         <mat-icon [icIcon]="emojioneUS"></mat-icon>
         <span>English</span>
       </button>
 
-      <button mat-menu-item>
+      <button mat-menu-item>-
         <mat-icon [icIcon]="emojioneDE"></mat-icon>
         <span>German</span>
       </button>
-    </mat-menu>
+    </mat-menu> -->
   </div>
 </div>
 

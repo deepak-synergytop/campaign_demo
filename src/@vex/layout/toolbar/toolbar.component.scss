@@ -20,3 +20,120 @@ a {
   color: var(--toolbar-color);
   text-decoration: none;
 }
+
+
+.heder_mian {
+    width: 100%;
+}
+
+.header_left {
+    margin-right: auto;
+    display: inline-block;
+}
+
+.header_right {
+    margin-left: auto;
+    width: auto !important;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.heder_mian {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header_right {}
+
+.headeruser img {
+    width: 30px;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+ul.favsubmenu {
+    position: absolute;
+    right: 0;
+    width: 201px;
+    padding: 10px 0;
+    border-radius: 8px;
+    border-top: 3px solid #fff;
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+    top: 100%;
+     background-image: -webkit-linear-gradient(to left bottom, #CD229C, #F36A4E);
+     background-image: -moz-linear-gradient(to left bottom, #CD229C, #F36A4E);
+     background-image: -ms-linear-gradient(to left bottom, #CD229C, #F36A4E);
+     background-image: -o-linear-gradient(to left bottom, #CD229C, #F36A4E);
+     background-image: linear-gradient(to left bottom, #CD229C, #F36A4E);
+}
+.headerfavourite {
+    position: relative;
+}
+.headeruser span {
+    vertical-align: middle;
+    font-size: 12px;
+}
+.header_right button {
+    width: 30px;
+    height: 30px;
+    line-height: 1;
+    background: #dcdcdc;
+}
+.header_right button svg {
+    width: 19px;
+    color: #0e0e0e;
+    box-shadow: none;
+}
+.header_right > div {
+    padding: 0 3px !important;
+}
+.headeruser {
+    margin-right: 12px;
+}
+.header_right button:hover svg {color: #fff;}
+.header_right button:hover {
+    background: red;
+    border-color: red;
+}
+.header_left button {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.header_left button svg {
+    color: #000;
+}
+ul.favsubmenu li {
+    position: relative;
+}
+ul.favsubmenu li a {
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+ul.favsubmenu li a mat-icon {
+    display: inline-block;
+    font-size: 20px;
+    height: auto;
+}
+ul.favsubmenu li a svg {
+    color: #fff;
+}
+ul.favsubmenu li a span {
+    display: inline-block;
+    white-space: normal;
+}
+.headerfavourite:hover ul.favsubmenu {
+    opacity: 1;
+    visibility: visible;
+}

@@ -18,6 +18,9 @@ import icArrowDropDown from '@iconify/icons-ic/twotone-arrow-drop-down';
 import { PopoverService } from '../../components/popover/popover.service';
 import { MegaMenuComponent } from '../../components/mega-menu/mega-menu.component';
 import icSearch from '@iconify/icons-ic/twotone-search';
+import icEmail from '@iconify/icons-ic/twotone-email';
+import icNotifications from '@iconify/icons-ic/twotone-notifications';
+
 
 @Component({
   selector: 'vex-toolbar',
@@ -52,6 +55,9 @@ export class ToolbarComponent implements OnInit {
   icReceipt = icReceipt;
   icDoneAll = icDoneAll;
   icArrowDropDown = icArrowDropDown;
+  icEmail = icEmail;
+  icNotifications = icNotifications;
+
 
   constructor(private layoutService: LayoutService,
               private configService: ConfigService,
