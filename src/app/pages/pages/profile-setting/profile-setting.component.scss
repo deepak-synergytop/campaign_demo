@@ -1,0 +1,78 @@
+h1.page_title {
+    font-size: 23px;
+    line-height: 1.2;
+    margin-bottom: 7px;
+}
+.page_bubttl {
+font-size: 12px;
+    line-height: 1.2;
+    color: #444;
+}
+
+.Profile_settng {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Profile_img_secinner {
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.profileupload input#progile_upload {
+    display: none;
+}
+
+.Profile_img_secinner > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileupload label {
+    position: absolute;
+    top: 111px;
+    right: 7px;
+    width: 33px;
+    height: 33px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Profile_img_secinner h3 {
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #000;
+    letter-spacing: .3px;
+    margin-top: 14px;
+}
+
+.Profile_setting_btn {
+    padding: 0 50px 40px;
+    margin-top: 60px;
+}
+
+.Profile_setting_btn button {
+    display: block !important;
+    width: 100%;
+    padding: 12px;
+    background: #EAE9EF;
+    text-align: left;
+    margin: 16px 0;
+    border-radius: 5px;
+}
+
+.Profile_setting_btn button img {
+    display: inline-block;
+    width: 23px;
+    margin-right: 6px;
+}
+
+.ttlbar {
+    padding: 42px 50px 0;
+}
