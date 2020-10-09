@@ -7,14 +7,14 @@ import { fadeInUp400ms } from '../../../../@vex/animations/fade-in-up.animation'
 
 @Component({
   selector: 'vex-profile',
-  templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.scss'],
+  templateUrl: './profile-setting.component.html',
+  styleUrls: ['./profile-setting.component.scss'],
   animations: [
     stagger60ms,
     fadeInUp400ms
   ]
 })
-export class ProfileComponent implements OnInit {
+export class ProfileSettingComponent implements OnInit {
 
   icSearch = icSearch;
   icPhoneInTalk = icPhoneInTalk;

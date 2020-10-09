@@ -114,6 +114,10 @@ const routes: VexRoutes = [
           {
             path: 'profile',
             loadChildren: () => import('./pages/pages/profile/profile.module').then(m => m.ProfileModule),
+          },
+          {
+            path: 'profile-setting',
+            loadChildren: () => import('./pages/pages/profile-setting/profile-setting.module').then(m => m.ProfileSettingModule),
           }
         ]
       },

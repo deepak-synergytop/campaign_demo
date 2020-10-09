@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ProfileComponent } from './profile.component';
+import { ProfileSettingComponent } from './profile-setting.component';
 import { VexRoutes } from '../../../../@vex/interfaces/vex-route.interface';
 
 
 const routes: VexRoutes = [
   {
     path: '',
-    component: ProfileComponent,
+    component: ProfileSettingComponent,
     data: {
       toolbarShadowEnabled: true
     }
@@ -18,5 +18,5 @@ const routes: VexRoutes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ProfileRoutingModule {
+export class ProfileSettingRoutingModule {
 }

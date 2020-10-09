@@ -1,25 +1,28 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ProfileRoutingModule } from './profile-routing.module';
-import { ProfileComponent } from './profile.component';
+import { ProfileSettingRoutingModule } from './profile-setting-routing.module';
+import { ProfileSettingComponent } from './profile-setting.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
 import { IconModule } from '@visurel/iconify-angular';
+import { MatTabsModule } from '@angular/material/tabs';
 import { MatExpansionModule } from '@angular/material/expansion';
 
 
+
 @NgModule({
-  declarations: [ProfileComponent],
+  declarations: [ProfileSettingComponent],
   imports: [
     CommonModule,
-    ProfileRoutingModule,
+    ProfileSettingRoutingModule,
     FlexLayoutModule,
     MatButtonModule,
     IconModule,
-    MatExpansionModule
+    MatTabsModule,
+    	MatExpansionModule
   ]
 })
-export class ProfileModule {
+export class ProfileSettingModule {
 }
 
