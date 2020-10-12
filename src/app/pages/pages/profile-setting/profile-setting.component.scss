@@ -76,3 +76,111 @@ font-size: 12px;
 .ttlbar {
     padding: 42px 50px 0;
 }
+.mat-tab-label-container .mat-tab-list .mat-ink-bar {
+    background: #ED2A73;
+}
+
+.profile-tab-info {
+    padding: 50px 0;
+}
+.profile-tab-info label.label {
+    position: relative;
+    margin: 0 0 10px 0;
+    display: block;
+    text-align: left;
+}
+.profile-tab-info label.label a {
+    background: #E3E1EB;
+    border-radius: 16px;
+    padding: 6px 10px;
+    position: relative;
+    right: -20px;
+    font-size: 11px;
+}
+.profile-tab-info label.label a:hover {
+    background: linear-gradient(72deg, #4CB6E4 0%, #6963DC 53%, #833AB4 100%);
+    color: #fff;
+}
+.profile-tab-info .field {
+    width: 95%;
+    display: block;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-radius: 13px;
+    margin: 0 0 20px 0;
+}
+.profile-tab-info .buttonbox {
+    text-align: right;
+}
+.profile-tab-info .buttonbox input[type="button"] {
+    background: linear-gradient(72deg, #4CB6E4 0%, #6963DC 53%, #833AB4 100%);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.profile-tab-info .radiobox {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.radio-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin: 0 20px 0 0;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #9C98B4;
+  border-radius: 50%;
+}
+
+.radio-container:hover input ~ .checkmark {
+  background-color: #9C98B4;
+}
+
+.radio-container input:checked ~ .checkmark {
+    background: transparent linear-gradient(64deg, #CD229C 0%, #F36A4E 100%);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.radio-container .checkmark:after {
+    left: 10px;
+    top: 6px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
