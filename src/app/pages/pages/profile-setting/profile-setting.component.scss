@@ -83,13 +83,13 @@ font-size: 12px;
 .profile-tab-info {
     padding: 50px 0;
 }
-.profile-tab-info label.label {
+.Profile_settng label.label {
     position: relative;
     margin: 0 0 10px 0;
     display: block;
     text-align: left;
 }
-.profile-tab-info label.label a {
+.Profile_settng label.label a {
     background: #E3E1EB;
     border-radius: 16px;
     padding: 6px 10px;
@@ -97,11 +97,11 @@ font-size: 12px;
     right: -20px;
     font-size: 11px;
 }
-.profile-tab-info label.label a:hover {
+.Profile_settng label.label a:hover {
     background: linear-gradient(72deg, #4CB6E4 0%, #6963DC 53%, #833AB4 100%);
     color: #fff;
 }
-.profile-tab-info .field {
+.Profile_settng .field {
     width: 95%;
     display: block;
     padding: 10px;
@@ -110,17 +110,18 @@ font-size: 12px;
     border-radius: 13px;
     margin: 0 0 20px 0;
 }
-.profile-tab-info .buttonbox {
+.Profile_settng .buttonbox {
     text-align: right;
 }
-.profile-tab-info .buttonbox input[type="button"] {
-    background: linear-gradient(72deg, #4CB6E4 0%, #6963DC 53%, #833AB4 100%);
+.Profile_settng .buttonbox input[type="button"] {
+       background: linear-gradient(72deg, #4CB6E4 0%, #6963DC 53%, #833AB4 100%);
     color: #fff;
-    padding: 12px 30px;
+    padding: 8px 30px;
     border-radius: 30px;
     cursor: pointer;
+    font-weight: 600;
 }
-.profile-tab-info .radiobox {
+.Profile_settng .radiobox {
     text-align: left;
     margin-bottom: 20px;
 }

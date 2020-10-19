@@ -34,7 +34,25 @@
 					</form>
 				</div>
 			</mat-tab>
-			<mat-tab label="Detail Info"> Content 2 </mat-tab>
+			<mat-tab label="Detail Info">
+				<div class="profile-detailtab">
+					<form>
+					   <label class="label">Address</label>
+						<input type="text" class="field" name="" placeholder="Address line 1 (Street address, P.O.box, Company name C/O)">
+						<input type="text" class="field" name="" placeholder="Address line 2 (Apartment, suite, unit, building, floor, etc.)">
+						<input type="text" class="field" name="" placeholder="City">
+						<input type="text" class="field" name="" placeholder="State / Province / Region">
+						<input type="text" class="field" name="" placeholder="Zip Code">
+						<div class="wellet_sec">
+							<label class="label">My Wallet</label>
+							<p class="small_pera">Choose the type of payment</p>
+                            <div class="wellet_btns">
+                            	<mat-icon-button></mat-icon-button>	
+                            </div>
+						</div>
+				    </form>
+				</div>
+			</mat-tab>
 		</mat-tab-group>
 	</div>
 	<vex-components-overview-dialogs @fadeInUp class="block"></vex-components-overview-dialogs>
