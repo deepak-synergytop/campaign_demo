@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import icClose from '@iconify/icons-ic/twotone-close';
+import icCreditCard from '@iconify/icons-ic/baseline-credit-card';
+import icBank from '@iconify/icons-ic/baseline-account-balance';
 
 @Component({
   selector: 'vex-components-overview-dialogs',
@@ -8,7 +10,8 @@ import icClose from '@iconify/icons-ic/twotone-close';
   styleUrls: ['./components-overview-dialogs.component.scss']
 })
 export class ComponentsOverviewDialogsComponent {
-
+  icCreditCard = icCreditCard;
+  icBank = icBank;
   result: string;
 
   dialogHTML =
@@ -53,8 +56,8 @@ export class ComponentsOverviewDialogsComponent {
 export class DemoDialogComponent {
 
   icClose = icClose;
-
   constructor(private dialogRef: MatDialogRef<DemoDialogComponent>) {
+
   }
 
   close(answer: string) {
