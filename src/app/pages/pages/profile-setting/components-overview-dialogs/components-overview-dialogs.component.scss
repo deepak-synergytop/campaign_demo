@@ -1,3 +1,128 @@
 :host {
   display: block;
 }
+
+.wellet_btnsinner {
+    display: block;
+    text-align: left;
+    margin-top: 23px;
+}
+.wellet_btnsinner mat-icon {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.wellet_btnsinner mat-icon svg {font-size: 31px;}
+.wellet_btnsinner button {
+    padding: 2px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin-right: 15px;
+    background: #fff;
+    border: 1px solid #c7c7c7;
+}
+
+.wellet_btnsinner button span {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center !important;
+    display: block;
+    line-height: 2;
+    margin-top: 3px;
+}
+
+
+
+.cdk-overlay-pane {
+    width: 100% !important;
+    max-width: 600px !important;
+}
+
+.mat-dialog-container {
+    padding: 0;
+    border-radius: 14px;
+}
+
+.mat-dialog-title {
+    background: #EAE9EF;
+    padding: 13px 21px;
+    margin: 0;
+}
+
+.mat-dialog-title h3 {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 300;
+}
+
+.mat-dialog-title button {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+mat-dialog-content.mat-dialog-content {
+    margin: 0;
+    padding: 14px 48px;
+}
+
+.profile_popup p {
+    display: block;
+    margin: 13px 0;
+}
+
+.profile_popup p label {
+    display: inline-block;
+    width: 115px;
+    vertical-align: middle;
+    font-weight: 300;
+}
+
+.profile_popup p 
+ input[type="text"] {
+    border: 1px solid #c9c9c9;
+    box-shadow: none;
+    padding: 2px 11px;
+    border-radius: 11px;
+}
+
+.profile_popup p.card_exp input {
+    width: 79px;
+    margin-right: 10px;
+}
+
+mat-dialog-actions.mat-dialog-actions {
+    margin: 0;
+    height: auto;
+    padding: 0 15px !important;
+}
+
+.mat-dialog-title button svg {
+    font-size: 20px;
+}
+
+mat-dialog-actions.mat-dialog-actions {
+    padding: 0;
+}
+
+mat-dialog-actions.mat-dialog-actions button {
+    background: linear-gradient(72deg, #4CB6E4 0%, #6963DC 53%, #833AB4 100%);
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+mat-dialog-actions.mat-dialog-actions button span {
+    color: #fff;
+}
+
+mat-dialog-actions.mat-dialog-actions button:first-child {
+    background: #BFBFBF;
+}
