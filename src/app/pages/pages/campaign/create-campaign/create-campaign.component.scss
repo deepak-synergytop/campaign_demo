@@ -1,0 +1,187 @@
+h1.page_title {
+    font-size: 23px;
+    line-height: 1.2;
+    margin-bottom: 7px;
+}
+.page_bubttl {
+font-size: 12px;
+    line-height: 1.2;
+    color: #444;
+}
+
+.Profile_settng {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Profile_img_secinner {
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.profileupload input#progile_upload {
+    display: none;
+}
+
+.Profile_img_secinner > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileupload label {
+    position: absolute;
+    top: 111px;
+    right: 7px;
+    width: 33px;
+    height: 33px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Profile_img_secinner h3 {
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #000;
+    letter-spacing: .3px;
+    margin-top: 14px;
+}
+
+.Profile_setting_btn {
+    padding: 0 50px 40px;
+    margin-top: 60px;
+}
+
+.Profile_setting_btn button {
+    display: block !important;
+    width: 100%;
+    padding: 12px;
+    background: #EAE9EF;
+    text-align: left;
+    margin: 16px 0;
+    border-radius: 5px;
+}
+
+.Profile_setting_btn button img {
+    display: inline-block;
+    width: 23px;
+    margin-right: 6px;
+}
+
+.ttlbar {
+    padding: 42px 50px 0;
+}
+.mat-tab-label-container .mat-tab-list .mat-ink-bar {
+    background: #ED2A73;
+}
+
+.profile-tab-info {
+    padding: 50px 0;
+}
+.Profile_settng label.label {
+    position: relative;
+    margin: 0 0 10px 0;
+    display: block;
+    text-align: left;
+}
+.Profile_settng label.label a {
+    background: #E3E1EB;
+    border-radius: 16px;
+    padding: 6px 10px;
+    position: relative;
+    right: -20px;
+    font-size: 11px;
+}
+.Profile_settng label.label a:hover {
+    background: linear-gradient(72deg, #4CB6E4 0%, #6963DC 53%, #833AB4 100%);
+    color: #fff;
+}
+.Profile_settng .field {
+    width: 95%;
+    display: block;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-radius: 13px;
+    margin: 0 0 20px 0;
+}
+.Profile_settng .buttonbox {
+    text-align: right;
+}
+.Profile_settng .buttonbox input[type="button"] {
+       background: linear-gradient(72deg, #4CB6E4 0%, #6963DC 53%, #833AB4 100%);
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.Profile_settng .radiobox {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.radio-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin: 0 20px 0 0;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #9C98B4;
+  border-radius: 50%;
+}
+
+.radio-container:hover input ~ .checkmark {
+  background-color: #9C98B4;
+}
+
+.radio-container input:checked ~ .checkmark {
+    background: transparent linear-gradient(64deg, #CD229C 0%, #F36A4E 100%);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.radio-container .checkmark:after {
+    left: 10px;
+    top: 6px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
