@@ -36,20 +36,25 @@ export class ComponentsOverviewDialogsComponent {
   selector: 'vex-components-overview-demo-dialog',
   template: `
       <div mat-dialog-title fxLayout="row" fxLayoutAlign="space-between center">
-          <div>Acoount Details</div>
+          <h3>Add a credit or debit card</h3>
           <button type="button" mat-icon-button (click)="close('No answer')" tabindex="-1">
               <mat-icon [icIcon]="icClose"></mat-icon>
           </button>
       </div>
 
       <mat-dialog-content>
-          <p>form detail</p>
+         <div class="cart_popupinner profile_popup">
+            <p><label>Card number</label><input type="text" placeholder="000-000-000"></p>
+            <p><label>Name on card</label><input type="text" placeholder=""></p>
+            <p class="card_exp input"><label>Expiration date</label><input type="text" placeholder="MM"><input type="text" placeholder="YYYY"></p>
+            <p><label>CVC number</label><input type="text" placeholder=""></p>
+         </div>
       </mat-dialog-content>
 
 
       <mat-dialog-actions align="end">
-          <button mat-button (click)="close('No')">NO</button>
-          <button mat-button color="primary" (click)="close('Yes')">YES</button>
+          <button mat-button (click)="close('No')">Cancel</button>
+          <button mat-button color="primary" (click)="close('Yes')">Add your card</button>
       </mat-dialog-actions>
   `
 })
