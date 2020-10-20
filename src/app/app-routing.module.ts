@@ -119,6 +119,9 @@ const routes: VexRoutes = [
             path: 'profile-setting',
             loadChildren: () => import('./pages/pages/profile-setting/profile-setting.module').then(m => m.ProfileSettingModule),
           },{
+            path: 'campaign',
+            loadChildren: () => import('./pages/pages/campaign/campaign-view/campaign.module').then(m => m.CampaignModule),
+          },{
             path: 'create-campaign',
             loadChildren: () => import('./pages/pages/campaign/create-campaign/create-campaign.module').then(m => m.CreateCampaignModule),
           },{
